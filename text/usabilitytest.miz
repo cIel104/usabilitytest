@@ -10,7 +10,7 @@ environ
 begin
 
 theorem
-    for X being set holds X \ {} - X
+    for X being set holds X \ {} = X
 proof
     let X be set;
     thus X \ {} c= X
