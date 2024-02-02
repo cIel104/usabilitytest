@@ -64,7 +64,7 @@ definition
 end;
 
 registration
-             cluster -> Noetherian for 1-element RelStr;
+  cluster -> Noetherian for 1-element RelStr;
   coherence
   proof
     let S be 1-element RelStr;
